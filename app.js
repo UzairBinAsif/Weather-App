@@ -8,7 +8,7 @@
 // const { CLIENT_RENEG_LIMIT } = require("node:tls")
 
 async function getOpenWeatherData(city) {
-    let req = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`)
+    let req = await fetch(`api/weather?city=${city}`)
     let data = await req.json()
     return data
 }
