@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether App - Uzair Bin Asif</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5 d-flex flex-column align-items-center">
+        <div class="mainDiv border shadow rounded p-3 d-flex flex-column align-items-center">
+            <h2 class="text-center mb-4">🌤️ Weather App</h2>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
+                <input id="cityInput" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="City Name">
+            </div>
+            <button id="getWeather" class="btn btn-primary" type="button">Get Weather</button>
+            <div id="Results" class="mt-4"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

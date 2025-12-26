@@ -1,0 +1,12 @@
+.mainDiv {
+    width: 300px !important;
+    
+}
+
+#getWeather {
+    width: 80%;
+}
+
+.spans {
+    font-weight: 400;
+}
